@@ -52,3 +52,7 @@ async function calcularCotacao() {
         console.error('Erro ao obter dados da API do CoinGecko', error);
     }
 }
+
+function limparInput() {
+    document.getElementById("quantidadeCompra").value = "";
+}
